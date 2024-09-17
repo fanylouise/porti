@@ -15,7 +15,7 @@ const NavItems = () => {
   )
 }
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleMenu = () => {
     console.log('Antes de clicar:', isOpen);
