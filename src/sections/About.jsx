@@ -26,8 +26,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Olá, Fany Louise aqui.</p>
               <p className="grid-subtext">
-                Com 3 anos de experiência, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              Ao longo de 3 anos de experiência, refinei minhas competências em desenvolvimento frontend e backend, desenvolvendo sites dinâmicos e responsivos
               </p>
             </div>
           </div>
@@ -38,10 +37,9 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">Tecnologias</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              Tenho especialização em diversas linguagens, frameworks e ferramentas, o que me capacita a desenvolver aplicações robustas e escaláveis
               </p>
             </div>
           </div>
@@ -63,8 +61,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">Eu sou flexível com horários</p>
+              <p className="grid-subtext">Eu sou do Rio de Janeiro, Brazil</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -75,10 +73,9 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Meu amor por código</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Amo resolver problemas e criar coisas novas com código. Gosto de aprender novas tecnologias para criar aplicações cada vez mais robustas e escaláveis
               </p>
             </div>
           </div>
@@ -93,7 +90,7 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Fale comigo</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">gandra.fany@gmail.com</p>

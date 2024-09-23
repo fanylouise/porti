@@ -19,26 +19,28 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+//service_sttj0lp
+//template_u6gh6ux
+//public key b5NL5T-9fEvsP9OgJ
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.REACT_APP_EMAILJS_USERID,
+        import.meta.env.REACT_APP_EMAILJS_TEMPLATEID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Fany Louise',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'gandra.fany@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        import.meta.env.REACT_APP_EMAILJS_RECEIVERID,
       )
       .then(
         () => {
           setLoading(false);
           showAlert({
             show: true,
-            text: 'Thank you for your message 😃',
+            text: 'Agradeço a sua mensagem 😃',
             type: 'success',
           });
 
@@ -57,7 +59,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: "Eu não recebi sua mensagem 😢",
             type: 'danger',
           });
         },
@@ -74,13 +76,12 @@ const Contact = () => {
         <div className="contact-container">
           <h3 className="head-text">Vamos Conversar</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+          Seja para desenvolver um novo site, aprimorar sua plataforma atual ou realizar um projeto especial, posso te ajudar.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
-              <span className="field-label">Full Name</span>
+              <span className="field-label">Nome Completo</span>
               <input
                 type="text"
                 name="name"
@@ -93,7 +94,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Email address</span>
+              <span className="field-label">E-mail</span>
               <input
                 type="email"
                 name="email"
@@ -106,7 +107,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Your message</span>
+              <span className="field-label">Sua mensagem</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -119,7 +120,7 @@ const Contact = () => {
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Send Message'}
+              {loading ? 'Enviando...' : 'Envira Mensagem'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
@@ -132,6 +133,3 @@ const Contact = () => {
 
 export default Contact;
 
-//service_sttj0lp
-//template_u6gh6ux
-//public key b5NL5T-9fEvsP9OgJ
