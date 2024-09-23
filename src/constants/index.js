@@ -6,17 +6,17 @@ export const navLinks = [
   },
   {
     id: 2,
-    name: 'About',
+    name: 'Sobre',
     href: '#about',
   },
   {
     id: 3,
-    name: 'Work',
+    name: 'Trabalhos',
     href: '#work',
   },
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contatos',
     href: '#contact',
   },
 ];
