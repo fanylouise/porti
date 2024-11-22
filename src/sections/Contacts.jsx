@@ -134,3 +134,4 @@ const Contact = () => {
 
 export default Contact;
 
+//https://www.telerik.com/blogs/sending-emails-react-app-using-emailjs
