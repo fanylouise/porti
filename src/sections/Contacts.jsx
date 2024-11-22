@@ -74,8 +74,9 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
+         
+          <p className="text-lg text-white-600 mt-4">
           <h3 className="head-text">Vamos Conversar</h3>
-          <p className="text-lg text-white-600 mt-3">
           Seja para desenvolver um novo site, aprimorar sua plataforma atual ou realizar um projeto especial, posso te ajudar.
           </p>
 
