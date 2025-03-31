@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' gandra.fany@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -26,7 +26,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Olá, Fany Louise aqui.</p>
               <p className="grid-subtext">
-              Ao longo de 3 anos de experiência, refinei minhas competências em desenvolvimento frontend e backend, desenvolvendo sites dinâmicos e responsivos
+              Ao longo de 3 anos de experiência, refinei minhas competências em desenvolvimento frontend e backend, desenvolvendo aplicações dinâmicas e responsivas
               </p>
             </div>
           </div>
@@ -61,9 +61,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">Eu sou flexível com horários</p>
-              <p className="grid-subtext">Eu sou do Rio de Janeiro, Brazil</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">Sou flexível com horários</p>
+              <p className="grid-subtext">Agenda limitada porém horários flexíveis</p>
+              <Button name="Entre em contato" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
         </div>

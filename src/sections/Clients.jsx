@@ -1,4 +1,4 @@
-import { clientReviews } from '../constants/index.js';
+/**import { clientReviews } from '../constants/index.js';
 
 const Clients = () => {
   return (
@@ -34,4 +34,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Clients;*/

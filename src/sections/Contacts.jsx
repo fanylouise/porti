@@ -90,7 +90,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="ex.: Clara Peixoto"
               />
             </label>
 
@@ -103,7 +103,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="ex.: clarapeixoto@gmail.com"
               />
             </label>
 
@@ -116,12 +116,12 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="Escreva sua mensagem aqui..."
               />
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Enviando...' : 'Envira Mensagem'}
+              {loading ? 'Enviando...' : 'Enviar mensagem'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
